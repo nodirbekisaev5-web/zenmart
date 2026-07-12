@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenmart</title>
+    <!--Swiper-->
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -200,7 +206,6 @@
           </div>
           </div>
         </div>
-        
       <div class="selling_product_frame">
         <div class="container">
           <div class="category_top">
@@ -208,11 +213,12 @@
             <a href="">view all</a>
           </div>
           <div class="selling_product_box">
-            <div class="next_page_box">
+            <div class="next_page_box swiper-button-prev-custom">
               <img src="./public/images/icons/next.svg" alt="">
             </div>
             <div class="product_boxes">
-              <div class="selling_item">
+              <div class="swiper-wrapper">
+              <div class="selling_item swiper-slide">
                 <a href="">
                   <div class="product_image_box" style="background: url(./public/images/products/watch.png); 
                   background-size: cover;">
@@ -240,7 +246,7 @@
                   </div>
                 </div>
               </div>
-              <div class="selling_item">
+              <div class="selling_item swiper-slide">
                 <a href="">
                   <div class="product_image_box" style="background: url(./public/images/products/image\ 30.png); 
                   background-size: cover;">
@@ -268,7 +274,7 @@
                   </div>
                 </div>
               </div>
-              <div class="selling_item">
+              <div class="selling_item swiper-slide">
                 <a href="">
                   <div class="product_image_box" style="background: url(./public/images/products/iRobot.png); 
                   background-size: cover;">
@@ -296,7 +302,7 @@
                   </div>
                 </div>
               </div>
-              <div class="selling_item">
+              <div class="selling_item swiper-slide">
                 <a href="">
                   <div class="product_image_box" style="background: url(./public/images/products/dyson.png); 
                   background-size: cover;">
@@ -324,43 +330,56 @@
                   </div>
                 </div>
               </div>
+              <div class="selling_item swiper-slide">
+                <a href="">
+                  <div class="product_image_box" style="background: url(./public/images/products/dyson.png); 
+                  background-size: cover;">
+                  <div class="hover_box">
+                  <button>Add to Card</button>
+                </div>
+              </div>
+            </a>
+                <div class="product_content_box">
+                  <span class="product_title">EASTSPORT</span>
+                  <a href="" class="product_info">
+                    <p>Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue</p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                  <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              </div>
             </div>
-            <div class="next_page_box" style="transform: scale(-1);">
+            <div class="next_page_box swiper-button-next-custom" style="transform: scale(-1);">
               <img src="./public/images/icons/next.svg" alt="">
             </div> 
           </div>
           <div class="pagionation_box">
             <div class="pagionation_main">
-              <img src="./public/images/icons/arrow-prev_next.svg" alt="">
-              <div class="pagionation_dot">
-                <div class="dot">
-                  <div></div> 
-                </div>
-                <div class="dot">
-                  <div></div>
-                </div>
-                <div class="dot">
-                  <div></div>
-                </div>
-                <div class="dot active" >
-                  <div></div>
-                </div>
-                <div class="dot">
-                  <div></div>
-                </div>
-                <div class="dot">
-                  <div></div>
-                </div>
-                <div class="dot">
-                  <div></div>
-                </div>
+              <img 
+              class="pagination-prev"
+              src="./public/images/icons/arrow-prev_next.svg" alt="">
+              <div class="pagionation_dot swiper-pagination-custom">
               </div>
-              <img src="./public/images/icons/arrow-prev_next.svg" alt=""
+              <img 
+              class="pagination-next"
+              src="./public/images/icons/arrow-prev_next.svg" alt=""
               style="transform: scale(-1);">
             </div>
           </div>
         </div>
       </div>
+      
 
       <div class="adv_farme">
         Members get free shipping* with no order minimum!*Restrictions apply.Try free 30-day trial
@@ -421,7 +440,200 @@
         </div>
       </div>
 
+      <div class="tv_frame">
+        <div class="container">
+          <div class="category_top">
+            <span>TV & Home Theatre</span>
+            <div class="category_right">
+              <a href="">Televisions</a>
+              <a href="">Digital Cable</a>
+              <a href="">Media Streamers</a>
+              <a href="">Remote Controls</a>
+            </div>
+          </div>
+          <div class="tv_wrapper">
+            <div class="next_page_box">
+              <img src="./public/images/icons/next.svg" alt="">
+            </div>
+            <div class="tv_product_boxes">
+            <div class="tv_product_box">
+              <div class="product_img">
+                <a href="">
+              <img src="./public/images/products/samsung_tv.png" alt="">
+            </a>
+              </div>
+                <div class="product_content_box">
+                  <span class="product_title">Samsung</span>
+                  <a href="" class="product_info">
+                    <p>Samsung 58" 4K UHD HDR LED Tizen Smart TV</p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                  <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+              <img src="./public/images/products/tcl.png" alt="">
+            </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">TLC</span>
+                  <a href="" class="product_info">
+                    <p>TCL 3-Series 40" 1080p HD LED Android Smart TV </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                  <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+              <img src="./public/images/products/LG-UHD.png" alt="">
+            </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">LG</span>
+                  <a href="" class="product_info">
+                    <p>LG 65" 4K UHD HDR LED webOS Smart TV</p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                  <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+              <img src="./public/images/products/LG-OLED.png" alt="">
+            </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">LG</span>
+                  <a href="" class="product_info">
+                    <p>LG 55" 4K UHD HDR OLED webOS Smart TV </p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                  <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href="">
+              <img src="./public/images/products/SONY-TV.png" alt="">
+             </a>
+                </div>
+                <div class="product_content_box">
+                  <span class="product_title">SONY</span>
+                  <a href="" class="product_info">
+                    <p>Sony X85J 65" 4K UHD HDR LED Smart Google TV</p>
+                  </a>
+                  <div class="review_box">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <img src="./public/images/icons/review.svg" alt="">
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$32</strong>
+                  <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="next_page_box" style="transform: scale(-1);">
+              <img src="./public/images/icons/next.svg" alt="">
+            </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  <div class="pagination_box">
+  <div class="pagination_main">
+    <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
+
+    <div class="pagination_dot">
+      <div class="dot">
+        <div></div>
+      </div>
+
+      <div class="dot">
+        <div></div>
+      </div>
+
+      <div class="dot">
+        <div></div>
+      </div>
+
+      <div class="dot active">
+        <div></div>
+      </div>
+
+      <div class="dot">
+        <div></div>
+      </div>
+
+      <div class="dot">
+        <div></div>
+      </div>
+
+      <div class="dot">
+        <div></div>
       </div>
     </div>
+
+    <img
+      src="./public/images/icons/arrow-prev_next.svg"
+      alt=""
+      style="transform: scale(-1)"
+    />
+     </div>
+   </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="./swiper.js"></script>
   </body>
 </html>
