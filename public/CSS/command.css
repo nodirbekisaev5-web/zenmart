@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -77,7 +81,7 @@ p {
   outline: none;
 
   color: rgba(4, 30, 66, 1);
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -94,7 +98,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   text-align: left;
@@ -164,7 +168,7 @@ p {
 .navbar_frame .box_info_box strong {
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
 
   font-size: 15px;
@@ -195,7 +199,7 @@ p {
 
   color: rgba(11, 30, 64, 1);
 
-  font-family: "jost";
+  font-family: var(--font);
   font-style: Bold;
   font-size: 8px;
   font-weight: 700;
@@ -235,7 +239,7 @@ p {
   margin-left: 10px;
   color: rgba(255, 255, 255);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -252,7 +256,7 @@ p {
 
 .navbar_frame .navbar_route_menu a {
   margin-right: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -267,7 +271,7 @@ p {
   margin-left: 10px;
   color: rgba(255, 255, 255, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 16px;
   font-weight: 500;
@@ -290,7 +294,7 @@ p {
   margin-bottom: 30px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 18px;
   font-weight: 500;
@@ -340,7 +344,7 @@ p {
 .footer_frame .contact_info_box div strong {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 15px;
   font-weight: 500;
@@ -352,7 +356,7 @@ p {
 .footer_frame .contact_info_box div span {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 15px;
   font-weight: 400;
@@ -370,7 +374,7 @@ p {
 .footer_frame .support_service_box a {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -421,7 +425,7 @@ p {
 .footer_frame .mobile_apps_box strong {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -450,7 +454,7 @@ p {
 .footer_frame .footer_payment-box .payment_box strong {
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Medium;
   font-size: 18px;
   font-weight: 500;
@@ -482,7 +486,7 @@ p {
   margin-right: 66px;
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -528,7 +532,7 @@ p {
 .footer_frame .footer_bottom_right .footer_select_box span {
   color: rgba(98, 105, 116, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
@@ -548,7 +552,7 @@ p {
 
   color: rgba(4, 30, 66, 1);
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: Regular;
   font-size: 14px;
   font-weight: 400;
