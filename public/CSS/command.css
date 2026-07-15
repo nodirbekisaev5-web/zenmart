@@ -272,3 +272,286 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
+
+/* FOOTER */
+
+.footer_frame {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(243, 245, 246, 1);
+}
+
+.container .footer_top_title {
+  margin-bottom: 30px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_frame .container {
+  flex-direction: column;
+}
+
+.container .footer_top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_top .contact_box {
+  width: 264px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_box .contact_info_box {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_info_box img {
+  width: 35px;
+  height: 30px;
+}
+
+.contact_info_box div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_info_box div strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.contact_info_box div span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_top .support_service_box {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.support_service_box a {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_top .social_box {
+  margin-bottom: 40px;
+  width: 264px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.social_box .icons_box {
+  margin-bottom: 30px;
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_box .mobile_apps_box {
+  margin-top: 30px;
+  width: 260px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile_apps_box div {
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile_apps_box .app_box img {
+  margin-top: 10px;
+  width: 24.28px;
+  height: 16px;
+
+  margin-right: 20px;
+}
+
+.mobile_apps_box strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_top .footer_payment-box {
+  width: 264px;
+  height: 211px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer_payment-box .payment_box {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_payment-box .payment_box strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_payment-box .payment_box div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .footer_bottom {
+  margin-top: 90px;
+  width: 100%;
+  height: 80px;
+
+  border-top: 1px solid rgba(234, 234, 234, 1);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .footer_bottom span {
+  margin-right: 66px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.container .footer_bottom div {
+  width: 557px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_bottom .footer_bottom_right {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_bottom_right .footer_select_box {
+  padding: 10px 20px;
+  width: 160px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+}
+
+.footer_bottom_right .footer_select_box span {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer_select_box select {
+  margin-left: 20px;
+  width: 70px;
+  height: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: left;
+}
