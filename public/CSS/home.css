@@ -499,7 +499,6 @@
 /* Swiper pagination */
 
 .swiper-pagination-custom {
-  position: static;
   width: auto;
 
   display: flex;

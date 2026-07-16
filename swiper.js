@@ -1,10 +1,9 @@
-const topSellingSwiper = new Swiper(".product_boxes", {
+const swiper = new Swiper(".product_boxes", {
   slidesPerView: 4,
   slidesPerGroup: 1,
   spaceBetween: 0,
 
   speed: 500,
-  grabCursor: true,
 
   navigation: {
     nextEl: ".swiper-button-next-custom",
