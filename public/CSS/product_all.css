@@ -737,3 +737,103 @@
   border: 1px solid rgba(234, 234, 234, 1);
   background: rgba(255, 255, 255, 1);
 }
+
+/* Pagination */
+
+.pagination_frame {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.pagination_frame .container {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.pagination_box a {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #111827;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+.pagination_box a:hover {
+  background: #f3f4f6;
+}
+
+.pagination_box .active {
+  box-sizing: border-box;
+  border: 1px solid rgba(245, 195, 75, 1);
+  background: rgba(245, 195, 75, 1);
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.pagination_box .gray {
+  box-sizing: border-box;
+  border: 1px solid rgba(243, 245, 246, 1);
+  background: rgba(243, 245, 246, 1);
+
+  color: rgba(5, 16, 54, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.pagination_box span {
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.arrow_btn {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid #1f2937;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.arrow_btn:hover {
+  background: #f3f4f6;
+}
+
+.arrow_btn i {
+  font-size: 14px;
+  color: #1f2937;
+}
