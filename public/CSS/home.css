@@ -9,14 +9,13 @@
   filter: brightness(0) invert(1);
 }
 
-.home_page .container .category_top {
+.container .category_top {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
-
-.home_page .category_top span {
+.category_top span {
   color: rgba(4, 30, 66, 1);
 
   font-family: var(--font);
@@ -26,8 +25,7 @@
   line-height: 40px;
   text-transform: capitalize;
 }
-
-.home_page .category_top a {
+.category_top a {
   color: rgba(4, 30, 66, 1);
 
   font-family: var(--font);
